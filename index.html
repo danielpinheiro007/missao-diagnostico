@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Missão Diagnóstico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Missão Diagnóstico</h1>
+    <div id="game">
+      <p id="story">Você é um(a) residente de odontologia designado(a) para investigar casos com manifestações bucais associadas a condições sistêmicas. Sua missão é fazer diagnósticos corretos baseando-se nas pistas dos casos.</p>
+      <div id="question-box">
+        <h2 id="question"></h2>
+        <div id="answers"></div>
+        <button id="next-btn" onclick="nextQuestion()">Próxima</button>
+      </div>
+    </div>
+    <div id="score-box" class="hidden">
+      <h2>Parabéns!</h2>
+      <p>Sua pontuação final foi: <span id="score"></span> de 14</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
